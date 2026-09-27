@@ -2,13 +2,19 @@
 
 Project matches **Lab1HelloAndroid** (Empty Views Activity, Kotlin).
 
-## Low storage? (no Android Studio on your PC)
+## No space for Android Studio? (phone demo)
 
-GitHub builds the app in the cloud — you only download a small **APK** (~5–15 MB).
+GitHub builds the APK in the cloud (no local install).
 
-1. Open **Actions** on the repo → workflow **Build Lab1 APK** → latest run → download artifact **Lab1HelloAndroid-debug-apk**.
-2. **Android phone:** copy `app-debug.apk` to the phone → install (allow install from Files/Drive if asked) → open **Lab1HelloAndroid** → record screen: **Hello Android!** → **Click Me** → **Button clicked!**
-3. If the lab requires an **emulator** specifically, use a campus PC, a friend’s machine with Android Studio, or ask the instructor — explain you have no disk space for the SDK.
+1. Open **Actions** tab: https://github.com/emrekadioglu/COMP3074/actions  
+2. Open the latest **Build Lab1 APK** run (green check).  
+3. Under **Artifacts**, download **Lab1HelloAndroid-debug-apk** (small file, ~5–15 MB).  
+4. Copy the APK to your **Android phone** (USB, Google Drive, email, etc.).  
+5. On the phone: allow install from that app, tap the APK, install **Lab1HelloAndroid**.  
+6. Open the app → **Hello Android!** → tap **Click Me** → text becomes **Button clicked!**  
+7. Record the screen with the phone’s built-in screen recorder and submit that video.
+
+If the lab requires an **emulator** specifically, tell your instructor you had no disk space for Android Studio and ask if a **phone screen recording** is acceptable.
 
 ## Run in Android Studio (optional)
 
