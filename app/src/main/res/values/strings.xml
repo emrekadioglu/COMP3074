@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab1HelloAndroid</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="click_me">Click Me</string>
+</resources>
