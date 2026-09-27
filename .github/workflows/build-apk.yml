@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+  ANDROID_HOME: /usr/local/lib/android/sdk
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,14 +22,6 @@ jobs:
           distribution: temurin
           java-version: "17"
           cache: gradle
-
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install SDK packages and accept licenses
-        run: |
-          sdkmanager --install "platform-tools" "platforms;android-34" "build-tools;34.0.0"
-          yes | sdkmanager --licenses
 
       - name: Make Gradle wrapper executable
         run: chmod +x gradlew
