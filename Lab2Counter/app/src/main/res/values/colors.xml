@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_background">#FFE8F4F8</color>
+    <color name="output_text">#FF0D47A1</color>
+    <color name="step_text">#FF455A64</color>
+    <color name="add_button">#FF2E7D32</color>
+    <color name="subtract_button">#FFC62828</color>
+    <color name="step_button">#FF6A1B9A</color>
+    <color name="reset_button">#FFEF6C00</color>
+    <color name="logo_ring">#FF1565C0</color>
+    <color name="logo_inner">#FF42A5F5</color>
+    <color name="primary">#FF1565C0</color>
+    <color name="primary_dark">#FF0D47A1</color>
+    <color name="accent">#FF26A69A</color>
+</resources>

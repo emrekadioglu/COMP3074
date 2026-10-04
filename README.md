@@ -34,6 +34,18 @@ https://github.com/emrekadioglu/COMP3074
 - Submit the **repository link** (URL above).
 - Submit a **screen recording** of the app working in the emulator.
 
+## Lab 2: Counter App
+
+Source is in the `Lab2Counter/` folder. Open that folder in Android Studio, or after a push use **Actions → Build Lab2 APK**.
+
+Behaviour from the lab PDF:
+
+- Output starts at **0**
+- **Add** / **Subtract** change the value by **1** by default
+- **Step** switches that to **±2**
+- **Reset** returns the value to **0** and restores **±1**
+- Custom logo, button/background colors, ConstraintLayout on every view
+
 ## Key files
 
 | File | Purpose |
