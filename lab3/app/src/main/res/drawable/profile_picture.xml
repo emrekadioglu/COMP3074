@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <!-- light circular plate like the screenshot avatar -->
+    <path
+        android:fillColor="#F3F3F3"
+        android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    <!-- drop shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M11.5,33a8.5,2.4 0,1 0,17 0a8.5,2.4 0,1 0,-17 0z" />
+    <!-- android head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,20c0,-4.4 3.6,-8 8,-8s8,3.6 8,8v7.5c0,0.8 -0.7,1.5 -1.5,1.5h-13c-0.8,0 -1.5,-0.7 -1.5,-1.5z" />
+    <!-- antennae -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="1.6"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:pathData="M15.5,13.2 L13.2,8.8 M24.5,13.2 L26.8,8.8" />
+    <!-- eyes -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M16.2,18.4a1.3,1.3 0,1 1,0.01 0zM23.8,18.4a1.3,1.3 0,1 1,0.01 0z" />
+</vector>
