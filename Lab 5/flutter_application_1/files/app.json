@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "GPS Location",
+    "slug": "gps-location",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android", "ios"],
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "This app needs your location to show your current latitude and longitude."
+        }
+      ]
+    ],
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs your location to show your current latitude and longitude."
+      }
+    }
+  }
+}
